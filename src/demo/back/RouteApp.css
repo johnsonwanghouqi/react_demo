@@ -1,0 +1,41 @@
+
+.topNavBar {
+  text-align: center;
+  position: fixed;
+  opacity: 0.8
+}
+
+.topNavBar ul {
+  border: 0px solid transparent;
+  padding-bottom: 4px;
+  border-color: #337ab7;
+  padding: 0px;
+  margin: 0;
+  padding: 0;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  overflow: hidden;
+
+}
+
+.topNavBar li {
+  list-style-type: none;
+  float: left;
+  background-color: #4A4A4A;
+}
+
+.topNavBar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 3px 16px;
+  text-decoration: none;
+}
+
+.topNavBar li a:hover:not(.active) {
+  background-color: #333333;
+}
+
+.topNavBar .active {
+  background-color: #337ab7;
+}
